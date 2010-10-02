@@ -20,7 +20,7 @@ void die(const char * str)
 {
 	fprintf(stderr, "suwrap: %s", str);
 	if (errno != 0) {
-		fprintf(stderr, ": (%d) %s\n", errno, strerror(errno));
+		fprintf(stderr, ": (%d) %s", errno, strerror(errno));
 	}
 	fprintf(stderr, "\n");
 	exit(1);
@@ -93,7 +93,7 @@ int main(int argc, char ** argv)
 	argsize = argc-COMMAND_INDEX+1;
 	args = malloc(argsize*sizeof(char*));
 	
-	for(int x=COMMAND_INDEX;x<argc;x++) {
+	for(x=COMMAND_INDEX;x<argc;x++) {
 		args[x-COMMAND_INDEX] = argv[x];
 	}
 		
