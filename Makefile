@@ -1,7 +1,7 @@
 ## Copyright Michael Banack 2010
 
 CC=gcc
-CFLAGS=-std=gnu99 -Wall -O3 -fomit-frame-pointer
+CFLAGS=-std=gnu99 -Wall -O3 -fomit-frame-pointer -m32
 
 OBJECTS=priv.o env.o
 
@@ -15,4 +15,4 @@ priv.o: priv.c priv.h
 env.o: env.c env.h
 
 clean:
-	rm -f suwrap
+	rm -f suwrap *.o
