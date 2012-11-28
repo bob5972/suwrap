@@ -1,7 +1,8 @@
 ## Copyright Michael Banack 2010
 
 CC=gcc
-CFLAGS=-std=gnu99 -Wall -O3 -fomit-frame-pointer -m32
+CFLAGS=-std=gnu99 -Wall -O3 -fomit-frame-pointer
+CFLAGS=${CFLAGS} -m32
 
 OBJECTS=priv.o env.o
 
