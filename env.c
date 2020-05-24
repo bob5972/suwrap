@@ -1,9 +1,12 @@
 /*
+ * env.c --
+ *   Taken from https://github.com/shadow-maint/shadow/blob/master/libmisc/env.c
+ *
  * Copyright (c) 1989 - 1992, Julianne Frances Haugh
  * Copyright (c) 1996 - 1999, Marek Michałkiewicz
  * Copyright (c) 2003 - 2005, Tomasz Kłoczko
  * Copyright (c) 2008 - 2009, Nicolas François
- * Copyright (c) 2010       , Michael Banack
+ * Copyright (c) 2010 - 2020, Michael Banack
  * All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
