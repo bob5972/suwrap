@@ -39,4 +39,4 @@ priv.o: priv.c priv.h
 env.o: env.c env.h
 
 clean:
-	rm -f suwrap#.o
+	rm -f suwrap *.o

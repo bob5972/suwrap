@@ -1,5 +1,5 @@
 /*
- * suwrap --
+ * LICENSE.txt -- Part of suwrap
  *
  * Except where otherwise marked, the source-code for suwrap is released with
  * the following copyright and license information.
