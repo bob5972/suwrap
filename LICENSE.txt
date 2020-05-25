@@ -4,7 +4,7 @@
  * Except where otherwise marked, the source-code for suwrap is released with
  * the following copyright and license information.
  *
- * Copyright (c) 2010-2020 Michael Banack <bob5972@banack.net>
+ * Copyright (c) 2010-2020 Michael Banack <github@banack.net>
  *
  * MIT License
  *

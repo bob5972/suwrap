@@ -1,6 +1,6 @@
 # Makefile -- Part of suwrap
 #
-# Copyright (c) 2010-2020 Michael Banack <bob5972@banack.net>
+# Copyright (c) 2010-2020 Michael Banack <github@banack.net>
 #
 # MIT License
 #
