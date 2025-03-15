@@ -25,7 +25,7 @@
 
 CC=gcc
 CFLAGS=-std=gnu99 -Wall -O2 -fomit-frame-pointer
-CFLAGS:=${CFLAGS} -m32
+#CFLAGS:=${CFLAGS} -m32
 
 OBJECTS=priv.o env.o
 
